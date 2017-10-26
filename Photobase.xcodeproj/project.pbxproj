@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		132718491F9FEAE60028CFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132718481F9FEAE60028CFEE /* AppDelegate.swift */; };
-		1327184B1F9FEAE60028CFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327184A1F9FEAE60028CFEE /* ViewController.swift */; };
 		1327184E1F9FEAE60028CFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1327184C1F9FEAE60028CFEE /* Main.storyboard */; };
 		132718511F9FEAE60028CFEE /* Photobase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1327184F1F9FEAE60028CFEE /* Photobase.xcdatamodeld */; };
 		132718531F9FEAE60028CFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132718521F9FEAE60028CFEE /* Assets.xcassets */; };
 		132718561F9FEAE60028CFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132718541F9FEAE60028CFEE /* LaunchScreen.storyboard */; };
 		132718611F9FEAE70028CFEE /* PhotobaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132718601F9FEAE70028CFEE /* PhotobaseTests.swift */; };
 		1327186C1F9FEAE70028CFEE /* PhotobaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327186B1F9FEAE70028CFEE /* PhotobaseUITests.swift */; };
+		1327187A1F9FF12D0028CFEE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132718791F9FF12D0028CFEE /* TableViewController.swift */; };
+		1327187C1F9FF13F0028CFEE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327187B1F9FF13F0028CFEE /* TableViewCell.swift */; };
+		1327187F1F9FF3A20028CFEE /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327187D1F9FF3A20028CFEE /* Item+CoreDataClass.swift */; };
+		132718801F9FF3A20028CFEE /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1327187E1F9FF3A20028CFEE /* Item+CoreDataProperties.swift */; };
+		132718851F9FF4B90028CFEE /* TableViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132718841F9FF4B90028CFEE /* TableViewControllerExtensions.swift */; };
+		132718871FA007DE0028CFEE /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132718861FA007DE0028CFEE /* NewItemViewController.swift */; };
+		132718891FA057C50028CFEE /* NewItemViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132718881FA057C50028CFEE /* NewItemViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,6 @@
 /* Begin PBXFileReference section */
 		132718451F9FEAE60028CFEE /* Photobase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photobase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		132718481F9FEAE60028CFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1327184A1F9FEAE60028CFEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1327184D1F9FEAE60028CFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		132718501F9FEAE60028CFEE /* Photobase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photobase.xcdatamodel; sourceTree = "<group>"; };
 		132718521F9FEAE60028CFEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,14 @@
 		132718671F9FEAE70028CFEE /* PhotobaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotobaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1327186B1F9FEAE70028CFEE /* PhotobaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotobaseUITests.swift; sourceTree = "<group>"; };
 		1327186D1F9FEAE70028CFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132718791F9FF12D0028CFEE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1327187B1F9FF13F0028CFEE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1327187D1F9FF3A20028CFEE /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1327187E1F9FF3A20028CFEE /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		132718821F9FF3B90028CFEE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		132718841F9FF4B90028CFEE /* TableViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerExtensions.swift; sourceTree = "<group>"; };
+		132718861FA007DE0028CFEE /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		132718881FA057C50028CFEE /* NewItemViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +92,13 @@
 		1327183C1F9FEAE50028CFEE = {
 			isa = PBXGroup;
 			children = (
+				1327187D1F9FF3A20028CFEE /* Item+CoreDataClass.swift */,
+				1327187E1F9FF3A20028CFEE /* Item+CoreDataProperties.swift */,
 				132718471F9FEAE60028CFEE /* Photobase */,
 				1327185F1F9FEAE70028CFEE /* PhotobaseTests */,
 				1327186A1F9FEAE70028CFEE /* PhotobaseUITests */,
 				132718461F9FEAE60028CFEE /* Products */,
+				132718811F9FF3B80028CFEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +115,11 @@
 		132718471F9FEAE60028CFEE /* Photobase */ = {
 			isa = PBXGroup;
 			children = (
+				132718831F9FF4A40028CFEE /* Extensions */,
 				132718481F9FEAE60028CFEE /* AppDelegate.swift */,
-				1327184A1F9FEAE60028CFEE /* ViewController.swift */,
+				132718791F9FF12D0028CFEE /* TableViewController.swift */,
+				1327187B1F9FF13F0028CFEE /* TableViewCell.swift */,
+				132718861FA007DE0028CFEE /* NewItemViewController.swift */,
 				1327184C1F9FEAE60028CFEE /* Main.storyboard */,
 				132718521F9FEAE60028CFEE /* Assets.xcassets */,
 				132718541F9FEAE60028CFEE /* LaunchScreen.storyboard */,
@@ -126,6 +145,23 @@
 				1327186D1F9FEAE70028CFEE /* Info.plist */,
 			);
 			path = PhotobaseUITests;
+			sourceTree = "<group>";
+		};
+		132718811F9FF3B80028CFEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				132718821F9FF3B90028CFEE /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		132718831F9FF4A40028CFEE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				132718841F9FF4B90028CFEE /* TableViewControllerExtensions.swift */,
+				132718881FA057C50028CFEE /* NewItemViewControllerExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132718891FA057C50028CFEE /* NewItemViewControllerExtensions.swift in Sources */,
+				132718801F9FF3A20028CFEE /* Item+CoreDataProperties.swift in Sources */,
+				1327187F1F9FF3A20028CFEE /* Item+CoreDataClass.swift in Sources */,
 				132718511F9FEAE60028CFEE /* Photobase.xcdatamodeld in Sources */,
-				1327184B1F9FEAE60028CFEE /* ViewController.swift in Sources */,
+				1327187C1F9FF13F0028CFEE /* TableViewCell.swift in Sources */,
+				1327187A1F9FF12D0028CFEE /* TableViewController.swift in Sources */,
+				132718851F9FF4B90028CFEE /* TableViewControllerExtensions.swift in Sources */,
+				132718871FA007DE0028CFEE /* NewItemViewController.swift in Sources */,
 				132718491F9FEAE60028CFEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
